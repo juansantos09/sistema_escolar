@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.logo-area img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.logo-area h1 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.logo-area p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    background-color: #f0f0f0;  
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    outline: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 191, 99, 0.2);    
+    border-color: #9bd88a;
+}
+
+button {
+    background-color: #4caf32;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-top: 25px; 
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 191, 99, 0.3);
+}
+
+button:hover {
+    background-color: #358023;
+    transform: scale(1.02);
+}
