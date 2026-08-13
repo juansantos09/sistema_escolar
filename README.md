@@ -10,6 +10,7 @@ Objetivo
 O principal objetivo do EvoED é oferecer uma plataforma que permita ao aluno consultar e acompanhar suas principais informações escolares, contribuindo para uma melhor organização e compreensão do seu desempenho acadêmico.
 
 Funcionalidades
+
 Acompanhamento acadêmico
 
 O aluno pode consultar suas informações relacionadas ao desempenho escolar, incluindo suas notas e resultados nas disciplinas.
